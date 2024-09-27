@@ -1,5 +1,3 @@
-Here is the GitHub Markdown code for the text you provided:
-
 ```markdown
 # 🚀 Reddit Bot 🤖
 
