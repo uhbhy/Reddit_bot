@@ -83,4 +83,3 @@ python Reply_posts.py
 - The bot stores post IDs in `posts_replied_to.txt` to avoid replying multiple times to the same post.
 
 Happy coding! 🎉
-```
