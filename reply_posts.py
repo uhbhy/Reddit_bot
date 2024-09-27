@@ -18,7 +18,7 @@ subreddit=reddit.subreddit('pythonforengineers')
 for submission in subreddit.hot(limit=5):
     if submission.id not in posts_replied_to:
         if re.search("i love python", submission.title, re.IGNORECASE):
-            submission.reply("ZIPPY SAYS: YO YO YO YO CHECK THIS SHI~ OUT")
+            submission.reply("ZIPPY SAYS: This is so cool!")
             print("Bot replying to: ",submission.title)
 
             posts_replied_to.append(submission.id)
