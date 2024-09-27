@@ -1,12 +1,15 @@
 ```markdown
 # 🚀 Reddit Bot 🤖
 
-This repository contains a Reddit bot that reads hot posts and replies to specific posts in selected subreddits using PRAW — the Python Reddit API Wrapper.
+This repository contains a Reddit bot that reads hot posts and replies to specific posts
+in selected subreddits using PRAW — the Python Reddit API Wrapper.
 
 ## 🛠 Features
 
-- 🔍 **Read Hot Posts**: Fetches and prints the top 5 hot posts from the `learnpython` subreddit with more than 10 upvotes.
-- 💬 **Auto Reply to Posts**: Automatically replies to posts containing the phrase "I love python" in the `pythonforengineers` subreddit with a fun message.
+- 🔍 **Read Hot Posts**: Fetches and prints the top 5 hot posts from the `learnpython`
+subreddit with more than 10 upvotes.
+- 💬 **Auto Reply to Posts**: Automatically replies to posts containing the phrase
+"I love python" in the `pythonforengineers` subreddit with a fun message.
 
 ## 📦 Prerequisites
 
@@ -41,8 +44,11 @@ user_agent=YOUR_APP_NAME
 
 ## 📝 Files in This Repository
 
-- **Read_posts.py**: Fetches the top 5 hot posts from the `learnpython` subreddit and displays details (title, text, and score) of posts with more than 10 upvotes.
-- **Reply_posts.py**: Scans the `pythonforengineers` subreddit for posts containing the phrase "I love python" and replies with a predefined message. Keeps track of replied posts to prevent duplicate replies.
+- **Read_posts.py**: Fetches the top 5 hot posts from the `learnpython` subreddit and
+- displays details (title, text, and score) of posts with more than 10 upvotes.
+- **Reply_posts.py**: Scans the `pythonforengineers` subreddit for posts containing the
+- phrase "I love python" and replies with a predefined message. Keeps track of replied
+- posts to prevent duplicate replies.
 
 ## 🖥 Usage
 
@@ -68,7 +74,8 @@ python Reply_posts.py
   - Score (upvotes)
 
 ### Reply_posts.py
-- Connects to the `pythonforengineers` subreddit and searches for the keyword "I love python" in post titles.
+- Connects to the `pythonforengineers` subreddit and searches for the keyword
+- "I love python" in post titles.
 - Automatically replies with:
   
   ```
